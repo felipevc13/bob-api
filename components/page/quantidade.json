@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_quantidades",
+  "info": {
+    "name": "quantidade",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "alimento": {
+      "model": "alimento"
+    },
+    "quantidade": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

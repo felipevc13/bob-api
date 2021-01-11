@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alimentos",
+  "info": {
+    "name": "alimento",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "categoria": {
+      "via": "alimentos",
+      "model": "categoria"
+    }
+  }
+}

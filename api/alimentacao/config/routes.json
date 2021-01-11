@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alimentacaos",
+      "handler": "alimentacao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alimentacaos/count",
+      "handler": "alimentacao.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alimentacaos/:id",
+      "handler": "alimentacao.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alimentacaos",
+      "handler": "alimentacao.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alimentacaos/:id",
+      "handler": "alimentacao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alimentacaos/:id",
+      "handler": "alimentacao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alimentacao",
+  "info": {
+    "name": "alimentacao",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "data": {
+      "type": "date",
+      "required": true,
+      "unique": true
+    },
+    "quantidadeAlimento": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.quantidade"
+    }
+  }
+}
